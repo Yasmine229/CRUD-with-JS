@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+    <section id="home" class=" w-100 bg-light d-flex justify-content-center align-items-center">
+
+        <div class="container py-5">
+
+            <input class="input w-100 form-control my-3" type="text" id="productName" placeholder="product name">
+            <input class="input w-100 form-control my-3" type="text" id="productPrice" placeholder="product price">
+            <input class="input w-100 form-control my-3" type="text" id="productCategory"
+                placeholder="product Category">
+            <input class="input w-100 form-control my-3" type="text" id="productDesc" placeholder="product Description">
+            <button id="addBtn" class="btn btn-success">Add Product</button>
+
+            <input class="form-control my-5" id="searchInput" type="text" placeholder="Search ....">
+
+            <table class="table mt-5">
+                <thead>
+                    <th>index</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="tableBody">
+                    
+                </tbody>
+            </table>
+
+        </div>
+    </section>
+
+
+    <script src="js/index.js"></script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
